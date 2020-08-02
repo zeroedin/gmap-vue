@@ -8,6 +8,14 @@ const props = {
   map: {
     twoWay: true,
     type: Object
+  },
+  suppressInfoWindows: {
+    twoWay: true,
+    type: Boolean
+  },
+  preserveViewport: {
+    twoWay: true,
+    type: Boolean
   }
 }
 
